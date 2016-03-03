@@ -1,4 +1,4 @@
-./site rebuild
+./site build
 cp -R _site/ ../prannayk.github.io/blog/
 git add .
 git commit -m "Added blog entry"

@@ -3,8 +3,6 @@ title: First Post
 description: The customary first post.
 -------
 
-# First Post
-
 This is the usual first post of any blog. I will hold on to my tradition and tell you how I built this. I wanted to build a blog for a really long time now, to both vent my fury sometimes but mostly to share interesting things one finds when he spends 60% of his day scrolling through feeds from a wide array of website such as Facebok, Twitter, Medium and on total boredom Quora. 
 
 So I went on to build this blog initially using basic PHP and I was successful. But I never bothered to maintain it and I got really irritated by it just because coding and maintaining PHP websites is a tedious and unnecessary task. So I gave it up for Ruby on Rails. But mid semester exams intervened leading to stall of that project. I will try to complete it even though I like this one better just because doing that would be stepping stone on the path of learning Ruby on Rails. 
