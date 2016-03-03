@@ -1,7 +1,10 @@
-<ul>
+<ul style="list-style:none;">
     $for(posts)$
-        <li>
+        <li class="blog_post">
             <a href="$url$">$title$</a> - $date$
+            $if(description)$
+            	<p>$description$</p>
+            $endif$
         </li>
     $endfor$
 </ul>

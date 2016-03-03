@@ -1,5 +1,6 @@
 -------
 title: First Post 
+description: The customary first post of the Blog
 -------
 
 # First Post
