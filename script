@@ -1,0 +1,9 @@
+./site rebuild
+cp -R _site/ ../prannayk.github.io/blog/
+git add .
+git commit -m "Added blog entry"
+git push -u origin master
+cd ../prannayk.github.io/
+git add .
+git commit -m "Added blog entry"
+git push -u origin master
