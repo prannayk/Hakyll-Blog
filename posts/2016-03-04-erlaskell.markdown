@@ -1,0 +1,16 @@
+-------
+title: Semifinal Verdict :  Erlang vs Haskell
+description: The halfway verdict on how Erlang is coming, in comparision to Haskell
+-------
+
+So for one, since the moment I started working on Erlang I nearly hated the syntax. It was confusing or I did not pay the right amount of attention, but more than that it had line endings. Extensive working in Haskell and Python had spoilt me into getting used to indentation based languages. 
+
+But more than that what I hated was that to do even simple things I had to go through a lot of extra lines of code and use more memory, Erlang being way slower than Haskell and C/C++. But all that had a reason, which I could not see before. Erlang allowed much more ease of use with better implementation of guards and highly optimized package managing. But more than that, Erlang was not just a language that was made for Functional Programming as I thought it was, as I went on it became more and more deeper. And ..
+
+> Down the rabbit hole Alice went 
+
+.. Erlang is more versatile with lists. With proper implementation, due to a stronger syntax it allowed more versatile data structures. And when I went into data structures I realized the real beauty of Erlang. Built as a telecommunication programming languages Erlang has no type classes and no data constructors. Functions do not require prototypes and all kinds of data are linked to each other with a specific order. This allows me to write a sorting function which works for all data types equally efficiently without having to generalize the functions using interfaces like I have to do in Java or Python. An inherent order between all data allows for even more versatile programming. No data constructors also allows me to switch between tuples of integers and tuples of strings very easily. This takes out the need for Functors like we have in Haskell. 
+
+### And all this is only the tip of the iceberg.
+
+Apart from general procedural programming using Functional, Erlang's second most amazing part which blew my mind out was concurrent programming. Haskell also allows for concurrent programming using the System.Concurrent packages but Erlang's inbuilt ability in it's environment to use 4 cores and 10 threads at a minimum allows for increases capability in parallel programming. Ok, I take my words back. Not exactly parallel programming since I do not perform the same task using different cores simaltaneously, but I divide the task into small tasks which can be executed simaltaneously. But this alone would have not impressed me a lot since I can effectively use libraries such as CUDA/OpenGL to get this done, or rather something similar. But Erlang has an inbuilt message passing techniques which allow for effectively communicating between nodes hence allowing Concurrent processing with Goal Callback and monitoring with minimal code and memory and maximum efficiency. And it was at that moment I realized how Erlang is just an amazing language. Although I do feel I am cheating on Haskell, but Erlang is altogether an amazing experience in itself.
